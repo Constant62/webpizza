@@ -52,6 +52,12 @@
    /**
     * 4. Définition des variables de routage
     */
+    $uri ="/";
+
+    $routes = [];
+    $route = [];
+
+    require_once "routes.php";
 
     /**
      * 5. Définition des expressions régulières
